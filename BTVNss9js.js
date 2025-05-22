@@ -197,40 +197,6 @@ green.onclick = function () {
   }
 }
 
-//Bài 6: Cách khác
-// let list = [
-//     { id: 1, name: "a", price: 1000 },
-//     { id: 2, name: "b", price: 2000 },
-//     { id: 3, name: "c", price: 3000 },
-// ];
-// let todolist = document.getElementById("myDIV");
-
-// let result1 = "";
-// for (let i = 0; i <= list.length - 1; i = i + 1) {
-//     let input = `
-//     <div id="myDIV" class="header">
-//       <h2 style="margin: 5px">My To Do List</h2>
-//       <input type="${list[i].id}, ${list[i].name}, ${list[i].price}" id="myInput" placeholder="Title..." />
-//       <span class="addBtn">Add</span>
-//     </div>` ;
-//     result1 = result1 + input;
-// } console.log(result1);
-
-// let displaylist = document.getElementById("list");
-
-// let result = "";
-// for (let i = 0; i <= list.length - 1; i = i + 1) {
-//     let input1 = `
-//       <ul id="list">
-//         <li>${i + 1}</li>
-//         <li>id: ${list[i].id}</li>
-//         <li>name: ${list[i].name}</li>
-//         <li>price: ${list[i].price}</li>
-//       </ul>` ;
-//     result = result + input1;
-// } console.log(result);
-// displaylist.innerHTML = result;
-
 //Bài 6:
 
 //B1: xây dựng giao diện(DONE)
