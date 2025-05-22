@@ -1,37 +1,4 @@
 //Bài 1:
-// const emplpoyee = [
-//     {
-//         id: 1,
-//         name: 'Example 1',
-//         age: 18,
-//         address: 'District',
-//     },
-//     {
-//         id: 2,
-//         name: 'Example 2',
-//         age: 18,
-//         address: 'District',
-//     },
-// ];
-
-// let studentsList = document.getElementById("studentList");
-
-
-// let result = "";
-// for (let i = 0; i <= emplpoyee.length - 1; i = i + 1) {
-//     let tr = `        
-//         <tr>
-//           <td>${emplpoyee[i].id}</td>
-//           <td>${emplpoyee[i].name}</td>
-//           <td>${emplpoyee[i].age}</td>
-//           <td>${emplpoyee[i].address}</td>
-//         </tr>`;
-//     result = result + tr;
-// }
-// studentsList.innerHTML = result;
-// console.log(result);
-
-//Bài 1:
 let studentList = [
   {
     id: 1,
